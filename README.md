@@ -4,9 +4,13 @@ A simple web-based calculator built using HTML, CSS, and JavaScript. This projec
 
 ## features
 => Supports basic arithmetic operations: addition, subtraction, multiplication, and division.
+
 => DEL button to remove the last entered digit or operator.
+
 => AC button to clear the entire input screen.
+
 => Responsive UI with a clean and intuitive design.
+
 => Error handling for invalid expressions.
 
 ## Technologies Used
