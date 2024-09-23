@@ -23,7 +23,14 @@ A simple web-based calculator built using HTML, CSS, and JavaScript. This projec
 ## Installation
 To use this project on your local machine:
 
-Clone the repository or download the source code:
+1. Clone the repository or download the source code:
+  https://github.com/GeetaSakthivel/CODSOFT_-Calculator-project.git
+
+2. Navigate to the project directory:
+  cd CODSOFT_-Calculator-project
+
+3.Open the index.html file in your Live Server:
+  open index.html
 
 ## Usage
 1. Enter numbers by clicking the respective buttons on the calculator.
@@ -35,5 +42,11 @@ Clone the repository or download the source code:
 4.Use the AC button to clear the entire input screen.
 
 5.Click the = button to evaluate the expression.
-Project Structure
+
+## License
+
+This project is open-source and available under the MIT License.
+
+Feel free to modify the details as necessary for your project!
+
  
