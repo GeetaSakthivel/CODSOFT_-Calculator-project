@@ -3,6 +3,7 @@
 A simple web-based calculator built using HTML, CSS, and JavaScript. This project demonstrates basic front-end development concepts, including responsive UI design and interactive functionality using JavaScript.
 
 ## features
+
 => Supports basic arithmetic operations: addition, subtraction, multiplication, and division.
 
 => DEL button to remove the last entered digit or operator.
@@ -14,6 +15,7 @@ A simple web-based calculator built using HTML, CSS, and JavaScript. This projec
 => Error handling for invalid expressions.
 
 ## Technologies Used
+
 => HTML: Structure of the calculator.
 
 => CSS: Styling for the calculator layout, buttons, and overall design.
@@ -26,7 +28,7 @@ To use this project on your local machine:
 
 1. Clone the repository or download the source code:
 
-  https://github.com/GeetaSakthivel/CODSOFT_-Calculator-project.git
+   https://github.com/GeetaSakthivel/CODSOFT_-Calculator-project.git
 
 2. Navigate to the project directory:
    
@@ -34,7 +36,7 @@ To use this project on your local machine:
 
 3.Open the index.html file in your Live Server:
 
-  open index.html
+   open index.html
 
 ## Usage
 
