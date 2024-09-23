@@ -8,34 +8,34 @@
 <body>
     <script src="script.js" defer></script>
 
-    <div class="calculator-grid">
-        <input type="text" class="result-screen" id="screen">
+    <div class="calculator">
+        <input type="text"  placeholder="0" id="display">
 
     <div class="calculator-keys">
-        <button class="key">AC</button>
-        <button class="key">DEL</button>
-        <button class="key-operator">.</button>
-        <button class="key-operator">/</button>
+        <button class="key" onclick="clearDisplay()">AC</button>
+        <button class="key" onclick="deleteLastNum()">DEL</button>
+        <button class="key" onclick="appendToDisplay('.')">.</button>
+        <button class="key-operator" onclick="appendToDisplay('/')">/</button>
 
 
-        <button class="key">1</button>
-        <button class="key">2</button>
-        <button class="key">3</button>
-        <button class="key-operator">*</button>
+        <button class="key" onclick="appendToDisplay('1')">1</button>
+        <button class="key" onclick="appendToDisplay('2')">2</button>
+        <button class="key" onclick="appendToDisplay('3')">3</button>
+        <button class="key-operator"  onclick="appendToDisplay('*')">*</button>
 
-        <button class="key">4</button>
-        <button class="key">5</button>
-        <button class="key">6</button>
-        <button class="key-operator">+</button>
+        <button class="key"  onclick="appendToDisplay('4')">4</button>
+        <button class="key"  onclick="appendToDisplay('5')">5</button>
+        <button class="key"  onclick="appendToDisplay('6')">6</button>
+        <button class="key-operator"  onclick="appendToDisplay('+')">+</button>
 
-        <button class="key">7</button>
-        <button class="key">8</button>
-        <button class="key">9</button>
-        <button class="key-operator">-</button>
+        <button class="key"  onclick="appendToDisplay('7')">7</button>
+        <button class="key"  onclick="appendToDisplay('8')">8</button>
+        <button class="key"  onclick="appendToDisplay('9')">9</button>
+        <button class="key-operator"  onclick="appendToDisplay('-')">-</button>
 
-        <button class="key">00</button>
-        <button class="key">0</button>
-        <button class="key-operator" id="span-2">=</button> 
+        <button class="key"  onclick="appendToDisplay('00')">00</button>
+        <button class="key"  onclick="appendToDisplay('0')">0</button>
+        <button class="key-operator" id="span-2" onclick="calculate()">=</button> 
     </div>
     </div> 
 </body>

@@ -1,15 +1,15 @@
 *{
     padding:0;
     margin: 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing:border-box;
 }
 body{
-    background: linear-gradient(to right,skyblue,pink);
+    background: linear-gradient(to right,rgb(10, 173, 237),rgb(210, 130, 143));
     height: 100vh;
 }
-.calculator-grid{
-    height: 350px;
+.calculator{
+    height: 380px;
     width: 250px;
     background-color:black;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
@@ -17,42 +17,55 @@ body{
     margin-left: 40%;
     margin-top: 10%;
 }
-.result-screen{
+input{
     height: 70px;
-    width: 100%;
-    background-color: antiquewhite;
+    width: 97%;
+    background-color:rgb(51, 49, 49);
+    color: white;
     box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    border-radius: 7px;
+    margin: 5px;
     text-align: right;
-    margin-bottom: 10px;
     padding: 10px;
     font-size: 2em;
 }
 .calculator-keys{
     display: grid;
     grid-template-columns:repeat(4,50px);
-    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
-    grid-template-rows:(4,70px);
-    gap: 10px;
-    padding-top: 5px;
+    grid-template-rows:repeat(4,50px);
     justify-content: center;
     align-content: center;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
+    gap: 10px;
+    padding-top: 5px;
+    outline: none;  
 }
 .key{
+    cursor: pointer;
     padding:10px;
     font-size: 1em;
-    background-color: peachpuff;
-    border-radius: 5px;
-    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    background : wheat;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
+button:hover {
+    background-color: hsl(40, 39%, 55%);
+}
+
 .key-operator{
+    cursor: pointer;
     padding:10px;
     font-size: 1em;
     background-color: orange;
-    font-weight: 300;
-    border-radius: 5px;
-    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 #span-2{
     grid-column: span 2;
+    background-color:rgb(215, 78, 99);
+}
+#span-2:hover{
+    background-color: hsl(0, 67%, 71%);
 }
